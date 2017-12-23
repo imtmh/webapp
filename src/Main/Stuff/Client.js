@@ -17,7 +17,7 @@ function checkStatus(response) {
   }
   alert(`HTTP Error ${response.statusText}
         \n HTTP Error status ${response.status}`);
-  return;
+  return {};
   const error = new Error(`HTTP Error ${response.statusText}`);
   error.status = response.statusText;
   error.response = response;
@@ -26,7 +26,7 @@ function checkStatus(response) {
 }
 
 function parseJSON(response) {
-  return response.json();
+  return response.json && response.json();
 }
 
 const Client = { search };
