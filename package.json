@@ -2,13 +2,17 @@
     "name": "webapp",
     "version": "0.1.0",
     "private": true,
+    "proxy": "https://food-lookup-demo-chinna.herokuapp.com/",
     "dependencies": {
         "husky": "^0.14.3",
         "lint-staged": "^6.0.0",
         "prettier": "^1.9.1",
         "react": "^16.2.0",
         "react-dom": "^16.2.0",
-        "react-scripts": "1.0.17"
+        "react-router-dom": "^4.2.2",
+        "react-scripts": "1.0.17",
+        "semantic-ui": "^2.2.13",
+        "semantic-ui-react": "^0.77.1"
     },
     "lint-staged": {
         "src/**/*.{js,jsx,json,css}": [
