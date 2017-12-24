@@ -1,19 +1,9 @@
 import React, { Component } from 'react';
-import { Route, NavNavLink, HashRouter, NavLink } from 'react-router-dom';
+import { Route, HashRouter, NavLink } from 'react-router-dom';
 import Home from './Home';
 import Stuff from './Stuff';
 import Contact from './Contact';
-import {
-  Button,
-  Container,
-  Divider,
-  Grid,
-  Header,
-  Image,
-  Menu,
-  Segment,
-  Icon
-} from 'semantic-ui-react';
+import { Container, Header, Icon } from 'semantic-ui-react';
 
 class Main extends Component {
   render() {
